@@ -13,10 +13,10 @@
   * [License](#license)
   
   ## How does one install this Weather App? 
-  Clone repo from the Teaom github account https://github.com/Teaom/Tha-Weather and open HTML file or go to https://teaom.github.io/Weather-App/
+  Clone repo from the Teaom github account https://github.com/Teaom/Tha-Weather and open HTML file or go to https://teaom.github.io/Tha-Weather/
 
   ## How does one use this Weather App? 
-  Go to https://teaom.github.io/Weather-App/
+  Go to https://teaom.github.io/Tha-Weather/
   Search city and see weather forecast
 
   ## Test 
@@ -26,7 +26,7 @@
   dclarkjenkins87@gmail.com
 
   ## How does one test this Weather App? 
-  Go to https://teaom.github.io/Weather-App/
+  Go to https://teaom.github.io/Tha-Weather/
   Search city and see weather forecast
 
   ## Questions 
