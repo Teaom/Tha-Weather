@@ -11,7 +11,7 @@ let storedSearches = JSON.parse(localStorage.getItem("searches")) || [];
 function renderLocalStorage() {
     searchHistory.innerHTML = "";
 
-    storedSearches.forEach(search => {
+    storedSearches.slice(0, 5).forEach(search => {
         const searchHistoryBtn = document.createElement("button");
         searchHistoryBtn.className = "searchHistoryDiv";
         searchHistoryBtn.textContent = search;
@@ -28,9 +28,9 @@ function renderCurrentWeather(data) {
             month: "short",
             day: "numeric",
         })}</div>
-        <div>${data.main.temp}</div>
-        <div>${data.main.humidity}</div>
-        <div>${data.wind.speed}</div>
+        <div>Temperature: ${data.main.temp}</div>
+        <div>Humidity: ${data.main.humidity}</div>
+        <div>Wind: ${parseInt(data.wind.speed)}</div>
         <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" />
     `;
 }

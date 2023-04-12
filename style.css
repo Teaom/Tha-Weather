@@ -85,3 +85,9 @@ main {
     border-radius: 30px;
     margin: 50px 100px 50px 100px;
 }
+
+#searchHistory {
+    display: flex;
+    flex-direction: column;
+    
+}
