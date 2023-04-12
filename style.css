@@ -36,8 +36,8 @@ aside section > div {
 aside form {
     display: flex;
     min-height: 40px;
-    width: 50%;
-    background-color: green;
+    width: 45%;
+    background-color: rgb(83, 83, 86);
     border-radius: 50pt;
     border: 2px solid black;
     
