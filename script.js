@@ -29,8 +29,8 @@ function renderCurrentWeather(data) {
             day: "numeric",
         })}</div>
         <div>Temperature: ${data.main.temp}</div>
-        <div>Humidity: ${data.main.humidity}</div>
-        <div>Wind: ${parseInt(data.wind.speed)}</div>
+        <div>Humidity: ${data.main.humidity}%</div>
+        <div>Wind: ${parseInt(data.wind.speed)} mph</div>
         <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" />
     `;
 }
@@ -53,8 +53,8 @@ function renderForecast(data) {
                 <div>
                     <div>High: ${parseInt(forecast.main.temp_max)}</div>
                     <div>Low: ${parseInt(forecast.main.temp_min)}</div>
-                    <div>Humidity: ${parseInt(forecast.main.humidity)}</div>
-                    <div>Wind: ${parseInt(forecast.wind.speed)}</div>
+                    <div>Humidity: ${parseInt(forecast.main.humidity)}%</div>
+                    <div>Wind: ${parseInt(forecast.wind.speed)} mph</div>
                     <img src="https://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png" />
                 </div>
             `;

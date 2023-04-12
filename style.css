@@ -72,22 +72,35 @@ main {
     flex-direction: column;
     justify-content: center;
     height: 30%;
+    width: 10%;
 }
 
 #forecast {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     height: 60%;
+    
 }
 
 #current, #forecast {
     background-color: #b8dae3b6;
-    border-radius: 30px;
-    margin: 50px 100px 50px 100px;
+    border-radius: 360px;
+    padding: 20px;
+    
 }
-
 #searchHistory {
     display: flex;
     flex-direction: column;
-    
+}
+
+#forecast > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#b8dae3b6;
+    border-radius: 10pt;
+    padding: 20px;
+
 }
