@@ -3,26 +3,25 @@ body {
     margin: 0px;
     min-height: 100vh;
     background-size: 100vw 100vh;
-    background-color: rgba(170, 164, 164, 0.91);
+    background-color: #83d6ed;
 }
 
 aside {
-     display: flex;
-     justify-content: center;
-     width: 30%;
-     height: 100%;
-     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    min-height: 100vh;
 }
 
-aside section  {
+aside section {
     display: flex;
     align-items: center;
     width: 95%;
     height: 95%;
-    background-color: rgb(56, 32, 32);
+    background-color: #83d6ed;
     padding: 40px 0;
-    border-radius: 50pt;
-    
+    border-radius: 50px;
 }
 
 aside section > div {
@@ -35,29 +34,26 @@ aside section > div {
 
 aside form {
     display: flex;
+    justify-content: space-between;
     min-height: 40px;
     width: 45%;
-    background-color: rgb(83, 83, 86);
-    border-radius: 50pt;
-    border: 2px solid black;
-    
-
+    background-color: #83d6ed;
+    border-radius: 50px;
+    border: 2px solid #000000;
 }
 
 input {
     width: 80%;
     border: none;
     outline: none;
-    border-radius: 50pt 0 0 50pt;
-
+    border-radius: 50px 0 0 50px;
 }
 
 form button {
     border: none;
-    background-color: rgb(83, 83, 86);
-    color: rgb(151, 151, 57);
-    border-radius: 0 50pt 50pt 0;
-    
+    background-color: #b8dae3b6;
+    color: rgb(0, 0, 0);
+    border-radius: 0 50px 50px 0;
 }
 
 main {
@@ -65,15 +61,16 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 80%;
+    width: 100%;
     min-height: 100vh;
+    text-align: center;
+    
 }
 
 #current {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     height: 30%;
 }
 
@@ -84,6 +81,7 @@ main {
 }
 
 #current, #forecast {
-    background-color: white;
-    border-radius: 50pt;
+    background-color: #b8dae3b6;
+    border-radius: 30px;
+    margin: 50px 100px 50px 100px;
 }
