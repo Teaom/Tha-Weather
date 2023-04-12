@@ -188,7 +188,7 @@ function searchCity(e) {
     if (searchInput.value !== "") {
     displayCurrent(searchInput.value);
     displayForecast(searchInput.value);
-    storedSearches.unshift(searchInput);
+    storedSearches.unshift(searchInput.value);
     localStorage.setItem("searches", JSON.stringify(storedSearches));
     getLocalStorage();
     }
